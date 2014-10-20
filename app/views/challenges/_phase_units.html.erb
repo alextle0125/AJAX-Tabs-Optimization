@@ -1,0 +1,12 @@
+<ul class="nav nav-tabs units">
+  <% @tracks.each do |track| %>
+    <li><a href="/tab/<%= track %>"><%= track %></a></li>
+  <% end %>
+</ul>
+<div class="tab-content">
+  <div class="tab-pane active">
+    <ul class="nav nav-tabs nav-stacked content">
+
+    </ul>
+  </div>
+</div>
